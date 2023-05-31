@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(142, 187, 226);
+  margin: 0;
+}
+.fullGalery {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  text-align: center;
+  row-gap: 50px;
+}
+img {
+  width: 350px;
+  height: 200px;
+  transition: 0.5s;
+}
+img:hover {
+  width: 380px;
+  height: 250px;
+}
+section h1 {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover,
+button :hover {
+  color: rgb(40, 134, 134);
+}
+a:active,
+button:active {
+  background-color: rgb(10, 73, 73);
+}
+button {
+  height: 25px;
+  background-color: rgb(13, 119, 119);
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+}

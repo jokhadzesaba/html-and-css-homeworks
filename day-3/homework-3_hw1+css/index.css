@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(142, 187, 226);
+  margin: 0;
+}
+nav {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 250px;
+  transition: 1s;
+}
+img:hover {
+  width: 280px;
+  height: 230px;
+}
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(48, 48, 189);
+}
+a:hover {
+  color: rgb(42, 84, 223);
+}
+a:active {
+  color: red;
+}
