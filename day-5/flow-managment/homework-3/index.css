@@ -1,0 +1,51 @@
+.container {
+  width: 940px;
+  height: 1080px;
+  
+}
+.box {
+  background-color: rgb(225, 225, 225);
+  width: 220px;
+  height: 220px;
+  float: left;
+  margin: 10px;
+}
+
+.left {
+  margin-left: 0;
+}
+.right {
+  margin-right: 0;
+}
+.little {
+  width: 100px;
+  height: 100px;
+}
+.big {
+  margin-left: 0;
+  width: 700px;
+}
+.row3 {
+  float: right;
+  margin-right: 0;
+}
+.row4 {
+  margin-left: 0;
+}
+.big.right {
+  float: right;
+}
+.medium {
+  width: 460px;
+  height: 220px;
+}
+.medium.left {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.medium.right {
+  float: right;
+  margin-left: 0;
+  margin-bottom: 0;
+  
+}

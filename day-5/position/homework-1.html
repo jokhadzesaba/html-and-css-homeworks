@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 800px;
+        height: 180px;
+        position: relative;
+      }
+      .container,
+      .notification {
+        border: 1px solid black;
+      }
+      .notification {
+        width: 45%;
+        height: 60%;
+        position: absolute;
+        right: 3%;
+        top: 12%;
+      }
+      .notification h4,
+      p,
+      span {
+        position: absolute;
+      }
+      .notification h4,
+      p {
+        left: 5%;
+      }
+      .notification h4 {
+        display: inline;
+        top: -10px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+      }
+      .notification p {
+        top: 20px;
+        margin-right: 30px;
+      }
+      .notification span {
+        right: 15px;
+        top: 3px;
+        font-size: 30px;
+      }
+      .color {
+        color: rgb(89, 89, 89);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="notification">
+        <h4>Notification Title</h4>
+        <span class="color">&times;</span>
+        <p class="color">
+          This is the content of the notification. This is the content of the
+          notification. This is content the of the notification
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

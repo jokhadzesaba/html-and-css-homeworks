@@ -1,0 +1,65 @@
+.container {
+  width: 375px;
+  height: 500px;
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+  margin: 3%;
+}
+
+.row1 {
+  float: left;
+  width: 20%;
+  height: 17%;
+}
+
+.container div:nth-child(2) {
+  float: right;
+  width: 71%;
+  height: 63.7%;
+  background-color: red;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+.row2 {
+  float: left;
+  width: 20%;
+  height: 42.3%;
+}
+
+.container div:nth-child(4) {
+  clear: both;
+  float: left;
+  background-color: blue;
+  width: 20%;
+  height: 29.5%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.row3 {
+  margin: 0;
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 52%;
+  height: 29.5%;
+}
+
+.col2 {
+  margin: 0;
+  float: left;
+  width: 16%;
+  height: 11%;
+}
+
+.container div:nth-child(7) {
+  background-color: yellow;
+  float: left;
+  width: 16%;
+  height: 15.4%;
+  margin-top: 4%;
+}
