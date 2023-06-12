@@ -1,0 +1,349 @@
+.container {
+  background-color: black;
+  width: 805px;
+  height: 805px;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.orangeYellow {
+  background-color: rgb(255, 238, 169);
+}
+.white {
+  background-color: rgb(255, 255, 255);
+}
+.inside3col3box2row2 {
+  height: 100%;
+}
+.lightblue {
+  background-color: rgb(134, 170, 222);
+}
+.red {
+  background-color: rgb(184, 52, 52);
+}
+.yellow {
+  background-color: rgb(254, 205, 6);
+}
+.row1,
+.row2col2box1 {
+  height: 35%;
+}
+.row2col2box1 > div:last-child > div:first-child,
+.row2col2box1 > div:last-child > div:last-child,
+.row2col2box1 > div:first-child > div:first-child,
+.row2col2box1 > div:first-child > div:last-child {
+  height: 48%;
+}
+.row2box2 > div:first-child > div:first-child,
+
+.inside1col1 {
+  width: 25%;
+}
+.col1,
+.inside3col3box2row2 > div:last-child {
+  width: 35%;
+}
+.inside3col3box1row1 > div:first-child > div:first-child {
+  width: 100%;
+}
+
+.col1,
+.row1,
+.row2,
+.inside3col3box2row2,
+.row2col2box1,
+.row2col2,
+.row2col2box2 > div:first-child > div:last-child,
+.row2box1row1,
+.row2box2,
+.row2box2 > div:first-child {
+  gap: 14px;
+}
+.container,
+.row2col2box2 > div:first-child,
+.col3,
+.inside1col1,
+.inside2col2,
+.inside2col2box1,
+.inside2col2box2,
+.inside3col3box1,
+.inside3col3box1row1,
+.inside3col3box1row1 div:first-child,
+.row2box1,
+.row2box1row1 > div:first-child,
+.row2box1row1 > div:last-child,
+.row2box1row1 > div:last-child > div:last-child,
+.row2box2 > div:first-child > div:last-child,
+.row2col2box1 > div:first-child,
+.row2box2 > div:first-child > div:last-child > div:first-child,
+.row2col2box1 > div:last-child,
+.row2col2box1 > div:first-child > div:last-child,
+.row2col2box2, .col2 {
+  gap: 7px;
+}
+
+.col3 {
+  width: 40%;
+}
+
+.inside1col1row1 {
+  height: 60%;
+}
+.inside1col1row2 {
+  height: 38%;
+}
+.inside2col2 {
+  width: 70%;
+}
+.inside2col2box1 {
+  width: 90%;
+}
+.inside2col2row1 {
+  height: 20%;
+}
+.inside2col2row2,
+.inside2col2row3 {
+  height: 38%;
+}
+.inside2col2box2 {
+  width: 60%;
+}
+.inside2col3row1 {
+  width: 100%;
+  height: 20%;
+}
+.inside2col3row2 {
+  width: 85%;
+  height: 78%;
+}
+.col2row1 {
+  height: 20%;
+}
+.col2row2 {
+  height: 78%;
+}
+.inside3col3box1 {
+  width: 55%;
+}
+.inside3col3box1row1 {
+  height: 60%;
+}
+.inside3col3box1row1 div:first-child {
+  width: 65%;
+}
+.inside3col3box1row1 > div:last-child {
+  width: 33%;
+}
+.inside3col3box1row1 div:first-child div:first-child {
+  height: 75%;
+}
+.inside3col3box1row1 div:first-child div:last-child {
+  height: 21%;
+}
+.inside3col3box1 > div:last-child {
+  height: 38%;
+}
+.inside3col3box2 {
+  width: 45%;
+}
+.inside3col3box2row2 > div:first-child {
+  width: 55%;
+}
+.row2 {
+  height: 65%;
+}
+.row2box1 {
+  width: 60%;
+}
+.row2box1row1 {
+  height: 65%;
+}
+.row2box1row1 > div:first-child {
+  width: 74%;
+}
+.row2box1row1 > div:first-child > div:first-child {
+  margin-top: 7px;
+  height: 30%;
+}
+.row2box1row1 > div:first-child > div:nth-child(2) {
+  height: 30%;
+}
+.row2box1row1 > div:first-child > div:last-child {
+  height: 40%;
+}
+.row2box1row1 > div:last-child {
+  margin-top: 7px;
+  width: 47.5%;
+}
+.row2box1row1 > div:last-child > div:first-child {
+  width: 49.5%;
+}
+.row2box1row1 > div:last-child > div:last-child {
+  width: 49%;
+}
+.row2box1row1 > div:last-child > div:last-child > div:first-child {
+  height: 10%;
+}
+.row2box1row1 > div:last-child > div:last-child > div:last-child {
+  height: 88%;
+}
+.row2box2 {
+  height: 39%;
+}
+.row2box2 > div:first-child {
+  width: 58.6%;
+}
+.row2box2 > div:last-child {
+  width: 42.6%;
+}
+.row2box2 > div:first-child > div:last-child {
+  width: 70%;
+}
+.row2box2 > div:first-child > div:last-child > div:first-child {
+  width: 60%;
+}
+.row2box2 > div:first-child > div:last-child > div:last-child {
+  width: 37%;
+}
+.row2box2
+  > div:first-child
+  > div:last-child
+  > div:first-child
+  > div:first-child {
+  height: 15%;
+}
+.row2box2
+  > div:first-child
+  > div:last-child
+  > div:first-child
+  > div:last-child {
+  height: 82%;
+}
+.row2col2 {
+  width: 39.5%;
+}
+.row2col2 {
+  width: 39.6%;
+}
+
+.row2col2box1 > div:first-child {
+  width: 82.2%;
+}
+.row2col2box1 > div:last-child {
+  width: 15.2%;
+}
+
+.row2col2box1 > div:first-child > div:last-child > div:first-child {
+  width: 70%;
+}
+.row2col2box1 > div:first-child > div:last-child > div:last-child {
+  width: 27%;
+}
+.row2col2box2 {
+  height: 62.3%;
+}
+.row2col2box2 > div:first-child {
+  height: 65%;
+}
+.row2col2box2 > div:first-child > div:first-child {
+  width: 30%;
+}
+.row2col2box2 > div:first-child > div:last-child {
+  width: 68%;
+}
+.row2col2box2 > div:first-child > div:last-child > div:first-child {
+  height: 55%;
+}
+.row2col2box2 > div:first-child > div:last-child > div:last-child {
+  height: 38.2%;
+}
+.row2col2box2 > div:last-child {
+  height: 32.8%;
+}
+.firstrow2{
+  width:63.2%;
+  
+  display: flex;
+  gap: 7px;
+}
+
+.col2{
+  
+  width: 40%;
+}
+.col3{
+  
+  width: 60%;
+  gap: 7px;
+}
+.col3 > div:first-child{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  
+  width: 50%;
+}
+.col3 > div:first-child > div:first-child{
+  display: flex;
+  gap: 7px;
+  
+  width: 100%;
+  height: 60%;
+}
+.col3 > div:first-child > div:first-child > div:first-child{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  
+  height: 100%;
+  width: 70%;
+}
+.col3 > div:first-child > div:first-child > div:first-child > div:first-child{
+  width: 100%;
+  height: 70%;
+  
+}
+.col3 > div:first-child > div:first-child > div:first-child > div:last-child{
+
+  width: 100%;
+  height: 26%;
+}
+.col3 > div:first-child > div:last-child{
+  
+  width: 100%;
+  height: 37.4%;
+}
+.col3 > div:first-child > div:first-child > div:last-child{
+  width: 25%;
+  height: 100%;
+  
+}
+.col3 > div:first-child > div:last-child{
+  width: 100%;
+  height: 40%;
+  
+}
+.col3 > div:last-child{
+  display: flex;
+  width: 80%;
+  
+}
+.col3 > div:last-child{
+  display: flex;
+  gap: 7px;
+  width: 50%;
+  height: 100%;
+
+}
+.col3 > div:last-child > div:first-child{
+
+  width: 71%;
+  height: 100%;
+}
+.col3 > div:last-child > div:last-child{
+  width: 36%;
+  height: 100%;
+}

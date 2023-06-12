@@ -1,0 +1,47 @@
+.container {
+  width: 940px;
+  height: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  height: 220px;
+}
+
+.row2 {
+  height: 100px;
+}
+
+.row3,
+.row4,
+.row5 {
+  height: 220px;
+}
+
+.box {
+  background-color: rgb(225, 225, 225);
+  width: 220px;
+  height: 220px;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}
+
+.large {
+  width: 700px;
+}
+
+.medium {
+  width: 460px;
+}

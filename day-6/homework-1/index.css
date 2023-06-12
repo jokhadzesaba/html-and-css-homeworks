@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 397px;
+  height: 470px;
+  justify-content: center;
+  align-items: center;
+}
+.container2,
+.container3,
+.container4 {
+  display: flex;
+  gap: 14px;
+}
+.container2 {
+  width: 370px;
+  height: 335px;
+  gap: 14px;
+}
+.col1, .container4{
+    flex-direction: column;
+}
+.col1 {
+  display: flex; 
+  gap: 28px;
+}
+.white {
+  background-color: white;
+  width: 80px;
+  height: 70px;
+}
+.long {
+  height: 222px;
+}
+.red {
+  background-color: red;
+  width: 280px;
+  height: 320px;
+}
+.container3 {
+  width: 370px;
+  height: 105px;
+}
+.blue {
+  background-color: blue;
+  width: 84px;
+}
+.large {
+  width: 220px;
+  height: 105px;
+}
+.little {
+  width: 50px;
+  height: 40px;
+}
+.yellow {
+  background-color: yellow;
+  width: 50px;
+  height: 55px;
+}
