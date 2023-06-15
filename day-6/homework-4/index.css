@@ -38,7 +38,6 @@
   height: 48%;
 }
 .row2box2 > div:first-child > div:first-child,
-
 .inside1col1 {
   width: 25%;
 }
@@ -81,7 +80,15 @@
 .row2box2 > div:first-child > div:last-child > div:first-child,
 .row2col2box1 > div:last-child,
 .row2col2box1 > div:first-child > div:last-child,
-.row2col2box2, .col2 {
+.row2col2box2,
+.col2,
+.firstrow2,
+.col3,
+.col3 > div:first-child,
+.col3 > div:first-child > div:first-child,
+.col3 > div:first-child > div:first-child > div:first-child,
+.col3 > div:first-child > div:first-child > div:first-child,
+.col3 > div:last-child {
   gap: 7px;
 }
 
@@ -198,7 +205,6 @@
 }
 .row2box2 > div:last-child {
   width: 39.2%;
-  
 }
 .row2box2 > div:first-child > div:last-child {
   width: 70%;
@@ -262,88 +268,48 @@
 .row2col2box2 > div:last-child {
   height: 32.8%;
 }
-.firstrow2{
-  width:63.2%;
-  
-  display: flex;
-  gap: 7px;
+.firstrow2 {
+  width: 63.2%;
 }
-
-.col2{
-  
+.col2 {
   width: 40%;
 }
-.col3{
-  
+.col3 {
   width: 68%;
-  gap: 7px;
 }
-.col3 > div:first-child{
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  
+.col3 > div:first-child {
   width: 50%;
 }
-.col3 > div:first-child > div:first-child{
-  display: flex;
-  gap: 7px;
-  
-  width: 100%;
+.col3 > div:first-child > div:first-child {
   height: 60%;
 }
-.col3 > div:first-child > div:first-child > div:first-child{
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  
-  height: 100%;
+.col3 > div:first-child > div:first-child > div:first-child {
   width: 70%;
 }
-.col3 > div:first-child > div:first-child > div:first-child > div:first-child{
-  width: 100%;
+.col3 > div:first-child > div:first-child > div:first-child > div:first-child {
   height: 70%;
-  
 }
-.col3 > div:first-child > div:first-child > div:first-child > div:last-child{
-
-  width: 100%;
+.col3 > div:first-child > div:first-child > div:first-child > div:last-child {
   height: 26%;
 }
-.col3 > div:first-child > div:last-child{
-  
-  width: 100%;
+.col3 > div:first-child > div:last-child {
   height: 37.4%;
 }
-.col3 > div:first-child > div:first-child > div:last-child{
+.col3 > div:first-child > div:first-child > div:last-child {
   width: 25%;
-  height: 100%;
-  
 }
-.col3 > div:first-child > div:last-child{
-  width: 100%;
+.col3 > div:first-child > div:last-child {
   height: 40%;
-  
 }
-.col3 > div:last-child{
-  display: flex;
+.col3 > div:last-child {
   width: 82%;
-  
 }
-.col3 > div:last-child{
-  display: flex;
-  gap: 7px;
+.col3 > div:last-child {
   width: 50%;
-  height: 100%;
-
 }
-.col3 > div:last-child > div:first-child{
-
+.col3 > div:last-child > div:first-child {
   width: 79%;
-  height: 100%;
 }
-.col3 > div:last-child > div:last-child{
-  
+.col3 > div:last-child > div:last-child {
   width: 36%;
-  height: 100%;
 }

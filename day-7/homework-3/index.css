@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1173px;
+  height: 1700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.header {
+  color: #34495e;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 14px;
+}
+.text {
+  color: #a1b1bc;
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 13px;
+}
+.tableContainer {
+  display: flex;
+  gap: 28px;
+  margin-bottom:12px;
+}
+.table {
+  width: 372px;
+  height: 180px;
+  display: flex;
+  font-size: 14px;
+  line-height: 30px;
+  color: #a1b1bc;
+  margin-top: 4px;
+  column-gap: 18px;
+}
+.squares {
+  display: flex;
+  flex-direction: column;
+  width: 16px;
+  height: 100%;
+  margin-left: 2px;
+}
+.squares > div:first-child {
+  margin-top: 9px;
+}
+.square {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: #34495e;
+  margin-bottom: 14px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+.text > div:first-child {
+  margin-top: 4px;
+}
+.tableContainer > div:nth-child(2) > .squares > .square {
+  box-sizing: border-box;
+  border: 1px solid;
+  background-color: #ffffff;
+}
+.second{
+    margin-bottom: 4px;
+}
+.code{
+    width: 1170px;
+    height: 190px;
+    background-color: #F5F7F8;
+    margin-left: 1px;
+    margin-bottom: 25px;
+}
+.code > p{
+    font-family: Arial, sans-serif;
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+}
+.code > p:first-child{
+    padding-left: 32px;
+    padding-top: 25px;
+}
+.code > p:not(:first-child):not(:last-child){
+    padding-left: 48px;
+}
+.code > p:last-child{
+    padding-left: 32px;
+}
+.textAndImage{
+    display: flex;
+    gap: 30px;
+}
+.image-placeholder{
+    background-color: #ECF0F1;
+    width: 370px;
+    height: 400px;
+    margin-top: 13px;
+    margin-left: 2px;
+}
+.textContainer{
+    width: 771px;
+}
+.textContainer > p{
+    padding-top: 10px;
+    margin-bottom: 6px;
+}
+.tags{
+    display: flex;
+    width: 1170px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 2px;
+    border: 1px solid #ECF0F1;
+}
+.icon{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #34495E;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    line-height: 20px;
+    position: relative;
+    color: white;
+}
+.icon > span{
+    margin-bottom: 4px;
+}
+.tags > div:last-child {
+    display: flex;
+    align-items: center;
+    
+}
+.tags > div:last-child > span{
+    font-size: 14px;
+    line-height: 20px;
+    color: #A1B1BC;
+    margin-bottom: 3px;
+
+}
+.tags > div:last-child >span:first-child{
+    margin-left: 20px;
+
+}
+.tags > div:last-child >span:not(:last-child){
+    margin-right: 7px;
+}
+.tags div:last-child > span:hover{
+    color: #1ABC9C;
+    text-decoration: underline;
+    text-underline-offset: 0.2px;
+}
+.administrator{
+    display: flex;
+    width: 1170px;
+    height: 160px;
+    border: 1px solid #ECF0F1;
+    background: rgba(236,240,241,0.3 );
+    margin-top: 48px;
+    
+    
+}
+.imageContainer{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+
+}
+.imageContainer > div:first-child{
+    width: 106px;
+    height: 106px;
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.3 ));
+    background-color: #a1b1bc;
+    box-sizing: border-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    
+}
+.content > div:first-child{
+    margin-top: 27px;
+    margin-left:3px;
+}
+.content > div> p{
+    font-family: 'Roboto Black', sans-serif;
+    color: #2C3E50;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+.content > div > span{
+    font-family: 'Roboto Thin' sans-serif;
+    font-weight:100;
+    font-size: 14px;
+    color: #D7DFE2;
+    padding-right: 4px;
+}
+.content > div:last-child{
+    width: 981px;
+    font-size: 14px;
+    margin-left: 2px;
+    margin-top: 12px;
+    line-height: 24px;
+    font-family: "Roboto" sans-serif;
+    font-style: italic;
+    
+}
+.content > div:last-child > span{
+    color: #A1B1BC
+}
+
+
