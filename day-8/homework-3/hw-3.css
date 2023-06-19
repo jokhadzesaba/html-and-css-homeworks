@@ -1,0 +1,41 @@
+.container {
+  background-color: black;
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+}
+.white {
+  background-color: white;
+}
+.div1 {
+  background-color: red;
+  grid-area: 1/1/12/19;
+}
+.div2 {
+  grid-area: 1/20/12/-1;
+}
+.div3 {
+  grid-area: 13/1/20/19;
+}
+.div4 {
+  grid-area: 13/20/20/-1;
+}
+.div5 {
+  background-color: yellow;
+  grid-area: 21/1/-1/5;
+}
+.div6 {
+  grid-area: 21/6/-1/19;
+}
+.div7 {
+  background-color: purple;
+  grid-area: 21/20/-3/-10;
+}
+.div8 {
+  grid-area: -2/20/-2/-10;
+}
+.div9 {
+  grid-area: 21/-9/-1/-1;
+}
