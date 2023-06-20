@@ -1,68 +1,64 @@
 @font-face {
-    font-family: "Muli ExtraLight";
-    src: url(../Muli-ExtraLight.ttf);
+  font-family: "Muli ExtraLight";
+  src: url(../Muli-ExtraLight.ttf);
 }
-.component-1{
-    width: 100%;
-    height: 50px;
-    background-color: rgb(29,13,93);
-    filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0,0,0,0.15 ));
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.component-1 {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0, 0, 0, 0.15));
+  align-items: center;
+  justify-content: center;
 }
-.component-1 > span{
-    font-family: Muli ExtraLight;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    opacity: 0.40;
-}
-
-.component-1 > span:first-of-type{
-    padding-bottom: 2px;
-    font-weight: 100;
+.component-1 > span {
+  font-family: Muli ExtraLight;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.4;
 }
 
-.component-1 > img:first-child{
-    width: 18px;
-    height: 14px;
-    opacity: 0.40;
-    margin-left: 2px;
-    margin-right: 23px;
-    
+.component-1 > span:first-of-type {
+  padding-bottom: 2px;
+  font-weight: 100;
 }
-.component-1 > img:nth-of-type(2){
-    width: 14px;
-    height: 14px;
-    opacity: 0.40;
-    padding-left: 78px;
-    margin-right: 16px;
+
+.component-1 > img:first-child {
+  width: 18px;
+  height: 14px;
+  opacity: 0.4;
+  margin-right: 19px;
+  padding-right: 3px;
 }
-.component-1 > img:nth-of-type(3){
-    width: 8px;
-    height: 14px;
-    opacity: 0.40;
-    padding-left: 636px;
-    margin-right: 20px;
-    
+.component-1 > img:nth-of-type(2) {
+  width: 14px;
+  height: 14px;
+  opacity: 0.4;
+  padding-left: 78px;
+  margin-right: 16px;
 }
-.component-1 > img:nth-of-type(4){
-    width: 15px;
-    height: 12px;
-    opacity: 1;
-    color: #FFFFFF;
-    margin-right: 20px;
+.component-1 > img:nth-of-type(3) {
+  width: 8px;
+  height: 14px;
+  opacity: 0.4;
+  padding-left: 636px;
+  margin-right: 20px;
 }
-.component-1 > img:nth-of-type(5){
-    width: 21px;
-    height: 14px;
-    opacity: 0.40;
-    margin-right: 20px;
+.component-1 > img:nth-of-type(4) {
+  width: 15px;
+  height: 12px;
+  opacity: 1;
+  color: #ffffff;
+  margin-right: 20px;
 }
-.component-1 > img:last-child{
-    width: 15px;
-    height: 14px;
-    opacity: 0.40;
-    
+.component-1 > img:nth-of-type(5) {
+  width: 21px;
+  height: 14px;
+  opacity: 0.4;
+  margin-right: 20px;
+}
+.component-1 > img:last-child {
+  width: 15px;
+  height: 14px;
+  opacity: 0.4;
 }

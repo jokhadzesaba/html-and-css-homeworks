@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Muli-Bold;
+  src: url(../Muli-Bold.ttf);
+}
+.component-2 {
+  width: 100%;
+  height: 95px;
+  background-color: rgb(59, 54, 48);
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.component-2 a:first-child {
+  margin-right: 3px;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: bolder;
+  font-family: "Poppins";
+  padding-left: 105px;
+  margin-right: 266px;
+}
+.component-2 a:first-child::after {
+  content: ".";
+  width: 10px;
+  color: #ee3364;
+}
+.component-2 a:not(:first-child) {
+  font-family: Muli-Bold;
+  font-size: 18px;
+  line-height: 36px;
+  padding-bottom: 8px;
+  margin-right: 41px;
+}
+
+.component-2 a:last-of-type {
+  padding-left: 1px;
+  margin-right: 134px;
+}
+.component-2 a:not(:first-child):hover {
+  color: #ee3364;
+}
+.icons {
+  padding-top: 2px;
+  position: relative;
+}
+.icons span {
+  font-family: "Cambay";
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #ee3364;
+  color: #ffffff;
+  position: absolute;
+  left: 11px;
+  top: 5px;
+}
+.icons > img:last-of-type{
+    padding-left: 17px;
+}
