@@ -44,10 +44,11 @@ table {
 .flex{
     display: flex;
 }
+.column{
+	flex-direction: column;
+}
 .container{
     margin: 0 auto;
 	flex-direction: column;
-    width: 100vw;
     height: 10629px;
-
 }

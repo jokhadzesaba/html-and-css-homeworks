@@ -1,0 +1,137 @@
+@font-face {
+  font-family: GlacialIndifference-Bold;
+  src: url(../GlacialIndifference-Bold.otf);
+}
+@font-face {
+  font-family: Muli regular;
+  src: url(../Muli.ttf);
+}
+@font-face {
+  font-family: Muli-Bold;
+  src: url(../Muli-Bold.ttf);
+}
+
+.component-4 {
+  width: 100%;
+  height: 860px;
+}
+
+.comp4container > div:first-child {
+  text-align: center;
+  margin-left: 366px;
+  margin-top: 130px;
+  margin-bottom: 54px;
+}
+.comp4container > div:first-child {
+  width: 650px;
+  height: 95px;
+}
+.comp4container > div:first-child > p {
+  font-family: GlacialIndifference-Bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+.office-text > span:not(:nth-of-type(2)) {
+  font-size: 40px;
+  font-family: GlacialIndifference-Bold;
+  padding-left: 58px;
+  padding-top: 6px;
+  margin-right: 10px;
+}
+
+.office-text > span:nth-of-type(2) {
+  font-size: 38px;
+  padding-top: 8px;
+  font-family: Helvetica, sans-serif;
+}
+.office-text > span:nth-of-type(3) {
+  padding-left: 12px;
+}
+.boxes-container {
+  width: 1182px;
+  margin-bottom: 87px;
+  margin-left: 94px;
+}
+
+.boxes-container > div {
+  box-sizing: border-box;
+  background-color: #edf7ff;
+  width: 360.5px;
+  height: 290px;
+}
+.boxes-container > div:nth-child(2) {
+  margin-left: 47px;
+  margin-right: 39px;
+}
+
+.image-placeholder {
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 84px;
+  margin-top: 40px;
+  margin-left: 34px;
+}
+.boxes-container > div:hover {
+    border: 3px solid #ee3364;
+    filter: drop-shadow(
+      8px 13.856406211853027px 21.5px rgba(121, 121, 121, 0.48)
+    );
+  }
+  .boxes-container > div:hover .image-placeholder {
+    background-color: #ee3364;
+  }
+.boxes-container > div:nth-child(1) > .image-placeholder > img {
+  /* padding-bottom: 3px; */
+  padding-left: 2px;
+}
+.boxes-container > div:nth-child(2) > .image-placeholder > img {
+  padding-top: 10px;
+  padding-left: 2px;
+}
+.boxes-container > div:nth-child(3) > .image-placeholder > img {
+  padding-left: 2px;
+  padding-top: 4px;
+}
+.boxes-container > div {
+  text-align: center;
+}
+.textfor-office-welcom1 {
+  font-family: GlacialIndifference-Bold;
+  font-size: 25px;
+  color: #2e2e2e;
+  padding-top: 18px;
+  padding-right: 34px;
+}
+.textfor-office-welcom2 {
+  font-size: 14px;
+  font-family: Muli regular;
+  line-height: 24px;
+  text-align: left;
+  color: #838383;
+  padding-left: 42px;
+  padding-top: 28px;
+  width: 320px;
+}
+.boxes-container > div:nth-child(2) > .textfor-office-welcom1 {
+  padding-right: 12px;
+}
+.boxes-container > div:nth-child(3) > .textfor-office-welcom1 {
+  padding-right: 86px;
+}
+.boxes-container > div:nth-child(3) > .textfor-office-welcom2 {
+  padding-top: 22px;
+  padding-left: 44px;
+}
+button {
+  font-family: Muli-Bold;
+  width: 204px;
+  height: 66px;
+  border: none;
+  background-color: #ee3364;
+  color: #ffffff;
+  font-size: 13.984660148620605px;
+}
