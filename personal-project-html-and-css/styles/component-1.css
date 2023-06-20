@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Muli Regular";
+    font-family: "Muli ExtraLight";
     src: url(../Muli-ExtraLight.ttf);
 }
 .component-1{
@@ -12,7 +12,7 @@
     justify-content: center;
 }
 .component-1 > span{
-    font-family: Muli Regular;
+    font-family: Muli ExtraLight;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
