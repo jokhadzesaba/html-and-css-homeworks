@@ -3,12 +3,11 @@
   src: url(../Muli-ExtraLight.ttf);
 }
 .component-1 {
-  width: 100%;
+  min-width: 1920px;
   height: 50px;
-  background-color: black;
-  filter: drop-shadow(-1.2246467996456087e-15px 20px 40px rgba(0, 0, 0, 0.15));
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 .component-1 > span {
   font-family: Muli ExtraLight;

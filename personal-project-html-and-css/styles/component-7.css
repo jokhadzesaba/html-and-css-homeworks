@@ -1,0 +1,16 @@
+.component-7-main-wrap{
+    background-color: #1B1B1B;
+    height: 310px;
+}
+.tasks{
+    width: 317px;
+    height: 157px;
+}
+.tasks > img{
+    width: 30px;
+    height: 30px;
+     
+}
+.mysvg{
+	fill: red;
+}
