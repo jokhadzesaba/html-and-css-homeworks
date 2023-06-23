@@ -1,7 +1,7 @@
 .component-7 {
-  width: 1920px;
+  min-width: 1920px;
   background-color: #1b1b1b;
-  height: 310px;
+  height: 309px;
   justify-content: center;
   align-items: center;
 }
