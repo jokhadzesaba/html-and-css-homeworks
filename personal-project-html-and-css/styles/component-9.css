@@ -90,9 +90,9 @@
 .cell span, .cell p, .cell img{
     visibility: hidden;
 }
-.cell:hover span,
-.cell:hover p,
-.cell:hover img {
+.cell:hover > span,
+.cell:hover > p,
+.cell:hover > img {
   visibility: visible;
   
 }

@@ -1,3 +1,32 @@
+@font-face {
+	font-family: Muli-Bold-Italic;
+	src: url(../Muli-BoldItalic.ttf);
+}
+@font-face {
+	font-family: GlacialIndifference-Bold;
+	src: url(../GlacialIndifference-Bold.otf);
+  }
+  @font-face {
+	font-family: Muli regular;
+	src: url(../Muli.ttf);
+  }
+  @font-face {
+	font-family: Muli-Bold;
+	src: url(../Muli-Bold.ttf);
+  }
+  @font-face {
+	font-family: Muli-Bold;
+	src: url(../Muli-Bold.ttf);
+  }
+  @font-face {
+	font-family: GlacialIndifference-Bold;
+	src: url(../GlacialIndifference-Bold.otf);
+  }
+  @font-face {
+	font-family: GlacialIndifference-Regular;
+	src: url(../GlacialIndifference-Regular.otf);
+  }
+	
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,8 +79,20 @@ table {
 .container{
     margin: 0 auto;
 	flex-direction: column;
+	min-width: 1920px;
     height: 10629px;
+	
 }
 button{
 	background-color: #ee3364;;
 }
+.first3comp{
+	min-width: 1920px;
+	height: 1029px;
+	background-image: url(../images/bg\ shape.png);
+	
+	background-position: center ;
+	background-repeat: no-repeat;
+	
+}
+
