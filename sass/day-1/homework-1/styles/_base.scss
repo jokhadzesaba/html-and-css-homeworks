@@ -1,0 +1,119 @@
+@mixin inside-box($bg-color, $border-color) {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 7px solid $border-color;
+  background-color: $bg-color;
+}
+.container-wraper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    > p {
+      color: $title_color;
+      font-size: 30px;
+      font-family: "Lato", sans-serif;
+      padding-left: 2px;
+      margin-bottom: 50px;
+    }
+
+    > .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 572px);
+      grid-template-rows: repeat(3, 150px);
+      gap: 30px;
+      > .box {
+        display: flex;
+        border: 1px solid #e2e6e7;
+        border-radius: 10px;
+        column-gap: 29px;
+        position: relative;
+        > img {
+          width: 10px;
+          height: 17px;
+          position: absolute;
+          right: 17px;
+          top: 14px;
+        }
+      }
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        width: 398px;
+
+        > p:first-of-type {
+          font-family: "Lato";
+          font-weight: bolder;
+          color: $title_color;
+          font-size: 14px;
+          letter-spacing: 1.5px;
+          padding-top: 36px;
+          margin-bottom: 13px;
+        }
+        > p:last-of-type {
+          width: 359px;
+          color: $message_color;
+          letter-spacing: -0.6px;
+          font-family: 14px;
+          line-height: 24px;
+          font-family: "Lato";
+        }
+      }
+      .circle-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 116px;
+      }
+
+      > .box:first-of-type {
+        > .circle-container {
+          > div {
+            @include inside-box($circle_color1, $border_color1);
+          }
+        }
+      }
+      > .box:nth-of-type(2) {
+        > .circle-container {
+          > div {
+            @include inside-box($circle_color2, $border_color2);
+          }
+        }
+      }
+      > .box:nth-of-type(3) {
+        > .circle-container {
+          > div {
+            @include inside-box($circle_color3, $border_color3);
+          }
+        }
+      }
+      > .box:nth-of-type(4) {
+        > .circle-container {
+          > div {
+            @include inside-box($circle_color4, $border_color4);
+          }
+        }
+      }
+      > .box:nth-of-type(5) {
+        grid-column-start: span 2;
+        > .text-container {
+          > p:last-of-type {
+            width: 1000px;
+          }
+        }
+        > .circle-container {
+          > div {
+            @include inside-box($circle_color5, $border_color5);
+          }
+        }
+      }
+    }
+  }
+}

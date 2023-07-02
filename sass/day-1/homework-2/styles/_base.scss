@@ -1,0 +1,147 @@
+@mixin box($bg_color) {
+  background-color: $bg_color;
+  display: flex;
+  border-radius: 10px;
+  column-gap: 29px;
+  position: relative;
+}
+@mixin inside-box($border-color) {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 7px solid $border-color;
+}
+@mixin x-icon($color) {
+  fill: $color;
+  width: 10px;
+  height: 17px;
+  position: absolute;
+  right: 17px;
+  top: 14px;
+}
+
+.container-wraper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    > p {
+      color: $title_color;
+      font-size: 30px;
+      font-family: "Lato", sans-serif;
+      padding-left: 2px;
+      margin-bottom: 50px;
+    }
+
+    > .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 572px);
+      grid-template-rows: repeat(3, 150px);
+      gap: 30px;
+      > .box {
+        display: flex;
+        border: 1px solid #e2e6e7;
+        border-radius: 10px;
+        column-gap: 29px;
+        position: relative;
+      }
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        width: 398px;
+
+        > p:first-of-type {
+          font-family: "Lato";
+          font-weight: bolder;
+          color: $title_color;
+          font-size: 14px;
+          letter-spacing: 1.5px;
+          padding-top: 36px;
+          margin-bottom: 13px;
+        }
+        > p:last-of-type {
+          width: 359px;
+          color: $message_color;
+          letter-spacing: -0.6px;
+          font-family: 14px;
+          line-height: 24px;
+          font-family: "Lato";
+        }
+      }
+      .circle-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 116px;
+      }
+
+      > .box:first-of-type {
+        @include box($bg_color1);
+        > svg {
+          @include x-icon($border_color1);
+        }
+        > .circle-container {
+          > div {
+            @include inside-box($border_color1);
+          }
+        }
+      }
+      > .box:nth-of-type(2) {
+        @include box($bg_color2);
+        >svg{
+          @include x-icon($border_color2);
+        }
+        > .circle-container {
+          > div {
+            @include inside-box($border_color2);
+          }
+        }
+      }
+      > .box:nth-of-type(3) {
+        @include box($bg_color3);
+        >svg{
+          @include x-icon($border_color3);
+        }
+        > .circle-container {
+          > div {
+            @include inside-box($border_color3);
+          }
+        }
+      }
+      > .box:nth-of-type(4) {
+        @include box($bg_color4);
+        >svg{
+          @include x-icon($border_color4);
+        }
+        > .circle-container {
+          > div {
+            @include inside-box($border_color4);
+          }
+        }
+      }
+      > .box:nth-of-type(5) {
+        @include box($bg_color5);
+        >svg{
+          @include x-icon($border_color5);
+        }
+        grid-column-start: span 2;
+        > .text-container {
+          > p:last-of-type {
+            width: 1000px;
+          }
+        }
+        > .circle-container {
+          > div {
+            @include inside-box($border_color5);
+          }
+        }
+      }
+    }
+  }
+}
