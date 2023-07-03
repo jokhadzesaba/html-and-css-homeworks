@@ -5,6 +5,10 @@
   border: 7px solid $border-color;
   background-color: $bg-color;
 }
+@mixin icons($color){
+  fill: $color;
+}
+  
 .container-wraper {
   width: 100vw;
   height: 100vh;
@@ -42,7 +46,15 @@
           right: 17px;
           top: 14px;
         }
+        >.circle-container{
+          >.svg-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
       }
+      
       .text-container {
         display: flex;
         flex-direction: column;
@@ -77,6 +89,9 @@
         > .circle-container {
           > div {
             @include inside-box($circle_color1, $border_color1);
+            >svg{
+              @include icons($icon-color1);
+            }
           }
         }
       }
@@ -84,20 +99,34 @@
         > .circle-container {
           > div {
             @include inside-box($circle_color2, $border_color2);
+            >svg{
+              @include icons($icon-color2);
+            }
           }
         }
       }
       > .box:nth-of-type(3) {
         > .circle-container {
           > div {
+
             @include inside-box($circle_color3, $border_color3);
+            >svg{
+              @include icons($icon-color3);
+              width: 17px;
+            }
           }
+          
         }
       }
       > .box:nth-of-type(4) {
         > .circle-container {
           > div {
             @include inside-box($circle_color4, $border_color4);
+            >svg{
+              @include icons($icon-color4);
+              height: 25px;
+              width: 17px;
+            }
           }
         }
       }
@@ -111,6 +140,9 @@
         > .circle-container {
           > div {
             @include inside-box($circle_color5, $border_color5);
+            >svg{
+              @include icons($icon-color5);
+            }
           }
         }
       }
